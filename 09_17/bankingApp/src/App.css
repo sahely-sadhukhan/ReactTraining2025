@@ -1,0 +1,323 @@
+:root {
+  --primary-color: #a5d8ff;       /* Light pastel blue */
+  --primary-dark: #74c0fc;        /* Medium pastel blue */
+  --secondary-color: #ffd8a8;     /* Light pastel orange */
+  --accent-color: #d0bfff;        /* Light pastel purple */
+  --background-color: #f8f9fa;    /* Very light gray */
+  --text-color: #495057;          /* Dark gray for text */
+  --heading-color: #5c7cfa;       /* Medium pastel blue for headings */
+  --border-color: #dee2e6;        /* Light gray for borders */
+  --success-color: #8ce99a;       /* Pastel green */
+  --error-color: #ffa8a8;         /* Pastel red */
+}
+
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container styling */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styling */
+h1 {
+  color: var(--heading-color);
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Container for components */
+.container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Form styling */
+form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+input:focus, select:focus {
+  border-color: var(--primary-dark);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(165, 216, 255, 0.3);
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+/* Transaction display styling */
+.transaction-container {
+  margin-top: 30px;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-left: 4px solid transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.transaction-deposit {
+  border-left-color: var(--success-color);
+}
+
+.transaction-withdrawal {
+  border-left-color: var(--error-color);
+}
+
+.transaction-amount {
+  font-weight: 600;
+}
+
+.amount-positive {
+  color: #69db7c;  /* Slightly darker than success-color for better contrast */
+}
+
+.amount-negative {
+  color: #ff8787;  /* Slightly darker than error-color for better contrast */
+}
+
+/* Balance display */
+.balance-display {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.balance-title {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #root {
+    padding: 15px;
+  }
+  
+  button {
+    width: 100%;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Basic styling for the transaction container */
+div {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome heading */
+h2 {
+  color: #5c7cfa;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Account details */
+span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #495057;
+}
+
+/* Balance amount styling */
+span:nth-of-type(2) {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+span:nth-of-type(2) b {
+  color: #5c7cfa;
+  font-size: 1.3rem;
+}
+
+/* Form elements */
+label {
+  display: block;
+  margin: 20px 0 8px;
+  font-weight: 600;
+  color: #495057;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #74c0fc;
+  box-shadow: 0 0 0 3px rgba(116, 192, 252, 0.25);
+}
+
+/* Button styling */
+button {
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-right: 15px; /* Add gap between buttons */
+  width: calc(50% - 8px); /* Make buttons take equal width with gap */
+}
+
+/* Different color for the first button (Add Balance) */
+button:first-of-type {
+  background-color: #a5d8ff; /* Pastel blue */
+  color: #1864ab;
+}
+
+button:first-of-type:hover {
+  background-color: #74c0fc;
+}
+
+/* Different color for the second button (Withdraw Balance) */
+button:last-of-type {
+  background-color: #ffd8a8; /* Pastel orange */
+  color: #e67700;
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+button:last-of-type:hover {
+  background-color: #ffc078;
+}
+
+/* Add a simple wrapper for buttons */
+button:first-of-type::after {
+  content: "";
+  display: inline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
