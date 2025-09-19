@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sahely",
+      "username": "sahely",
+      "password": "123",
+      "token": "JwiLRE",
+      "contactno": "132-522-5956"
+    },
+    {
+      "id": 2,
+      "name": "Elsa Peron",
+      "username": "eperon1",
+      "password": "z0_|Djt$",
+      "token": "rRnDPf",
+      "contactno": "855-504-2082"
+    },
+    {
+      "id": 3,
+      "name": "Dacey Daniel",
+      "username": "ddaniel3",
+      "password": "x9nQx>R",
+      "token": "67UnJ7",
+      "contactno": "370-124-1204"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lemon Garlic Marinade",
+      "category": "Food - Condiments",
+      "subcategory": "Marinades",
+      "description": "A zesty marinade made with lemon juice and garlic, ideal for chicken or fish.",
+      "price": 4.29,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Asian Salad Mix",
+      "category": "Food - Produce",
+      "subcategory": "Salad Mixes",
+      "description": "Fresh greens and veggies for a quick Asian-inspired salad.",
+      "price": 3.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop2.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Electric Griddle with Lid",
+      "category": "Kitchen",
+      "subcategory": "Cooking Appliances",
+      "description": "Non-stick griddle for pancakes, burgers, and more.",
+      "price": 49.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop3.png",
+	  "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Adjustable Height Standing Desk Converter",
+      "category": "Office",
+      "subcategory": "Furniture",
+      "description": "Convert your desk to a standing desk easily.",
+      "price": 89.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop2.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Spicy Thai Noodles",
+      "category": "Food - Frozen Meals",
+      "subcategory": "Frozen Asian Meals",
+      "description": "Instant noodles with a spicy Thai sauce for quick meals.",
+      "price": 1.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Habanero Hot Sauce",
+      "category": "Food - Condiments",
+      "subcategory": "Spicy Sauces",
+      "description": "Fiery hot sauce made with fresh habaneros and spices.",
+      "price": 3.79,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop3.png",
+	  "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Acoustic Guitar",
+      "category": "Music",
+      "subcategory": "Instruments",
+      "description": "Beginner-friendly acoustic guitar with natural finish.",
+      "price": 199.99,
+	  "rating": 4.5,
+	  "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Buffalo Chicken Dip",
+      "category": "Food - Dips",
+      "subcategory": "Spicy Dips",
+      "description": "Spicy and creamy dip made with shredded chicken, perfect for parties.",
+      "price": 5.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 9,
+      "name": "Fitness Resistance Bands Kit",
+      "category": "Fitness",
+      "subcategory": "Strength Training Equipment",
+      "description": "Set with various resistance bands for workouts.",
+      "price": 29.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "Cranberry Lime Sparkling Water",
+      "category": "Food - Beverages",
+      "subcategory": "Sparkling Beverages",
+      "description": "Refreshing sparkling water infused with cranberry and lime flavors.",
+      "price": 1.5,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop3.png",
+	  "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "Electric Milk Frother",
+      "category": "Kitchen",
+      "subcategory": "Beverage Appliances",
+      "description": "Handheld frother for creating frothed milk for coffee.",
+      "price": 19.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop2.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "LED Strip Lights",
+      "category": "Home",
+      "subcategory": "Lighting & Lamps",
+      "description": "Colorful LED strip lights for home decoration.",
+      "price": 19.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop2.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 13,
+      "name": "Lightweight Backpacking Tent",
+      "category": "Outdoor",
+      "subcategory": "Camping Equipment",
+      "description": "Easy-to-set up tent designed for campers and hikers.",
+      "price": 129.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 14,
+      "name": "Kids Tablet",
+      "category": "Electronics",
+      "subcategory": "Tablets for Kids",
+      "description": "Durable tablet designed for kids with parental controls.",
+      "price": 129.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop3.png",
+	  "quantity": 1
+    },
+    {
+      "id": 15,
+      "name": "Rice Pilaf Mix",
+      "category": "Food - Grains",
+      "subcategory": "Convenience Meal Kits",
+      "description": "Quick and easy rice pilaf mix for side dishes.",
+      "price": 2.59,
+	  "rating": 4.5,
+	  "quantity": 1
+    },
+    {
+      "id": 16,
+      "name": "Children's Gardening Set",
+      "category": "Toys",
+      "subcategory": "Outdoor Play Toys",
+      "description": "Fun gardening tools designed specifically for kids.",
+      "price": 19.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 17,
+      "name": "Chewy Granola Bars",
+      "category": "Food - Snacks",
+      "subcategory": "Healthy Snacks",
+      "description": "Oats and honey bars with a chewy texture and nutty flavor.",
+      "price": 3.49,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop3.png",
+	  "quantity": 1
+    },
+    {
+      "id": 18,
+      "name": "Comfort Flats",
+      "category": "Clothing - Shoes",
+      "subcategory": "Casual Footwear",
+      "description": "Everyday flats that combine comfort and style.",
+      "price": 44.99,
+	  "rating": 4.5,
+	  "quantity": 1
+    },
+    {
+      "id": 19,
+      "name": "Classic Pumps",
+      "category": "Clothing - Footwear",
+      "subcategory": "Women's Dress Shoes",
+      "description": "Elegant classic pumps that add sophistication to any outfit.",
+      "price": 64.99,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop2.jpg",
+	  "quantity": 1
+    },
+    {
+      "id": 20,
+      "name": "Spicy Tuna Salad",
+      "category": "Food - Seafood",
+      "subcategory": "Prepared Seafood",
+      "description": "Ready-to-eat tuna salad with a spicy kick, perfect for sandwiches.",
+      "price": 4.49,
+	  "rating": 4.5,
+	  "imageUrl": "/assets/shop.jpg",
+	  "quantity": 1
+    }
+  ]
+}
